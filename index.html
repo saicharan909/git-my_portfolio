@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Responsive Portfolio Website design</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER DESIGN -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about" >About</a>
+        <a href="#services" >Services</a>
+        <a href="#portfolio" >Portfolio</a>
+        <a href="#contact" >Contact</a>
+      </nav>
+    </header>
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi, myself</h3>
+        <h1>Sai Charan</h1>
+        <h2>And I'm a <span id="multiple-text"></span></h2>
+        <p>
+          I am a Java Developer since 2 years and very much interested in web
+          development and I'm 60% into the Backend and 40% into the Front end
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="#" class="btn" class="btn1">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/dev3.png" alt="Me" />
+      </div>
+    </section>
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/mine.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">ABOUT <span>Me</span></h2>
+        <h3>Java Developer</h3>
+        <p>
+          I am a Java Developer since 2 years and very much interested in web
+          development and I'm 60% into the Backend and 40% into the Front end
+        </p>
+      </div>
+    </section>
+    <!-- SERVICE CONTENT SECTION DESIGN -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code fa-2xl"></i>
+          <h3>Web development</h3>
+          <p>
+            My journey into the world of web development began with some basic
+            frontend tools for designing the web pages. Since then, I've honed
+            my skills in front-end and back-end technologies, mastering
+            languages such as HTML, CSS, JavaScript, and mention any other
+            relevant technologies or frameworks.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="fa-brands fa-java fa-2xl"></i>
+          <h3>About <span>JAVA</span> Background</h3>
+          <p>
+            Building and maintaining websites using Java-based frameworks like
+            Spring Boot or JavaServer Faces (JSF). Developing web applications
+            with Java Servlets and JSP (JavaServer Pages).
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/project1.jpeg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/project2.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Project2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/project4.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Project3</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email address"
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- FOOTER SECTION DESIGN -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by @saicharan.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
+    <!-- SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- MAIN JS -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
